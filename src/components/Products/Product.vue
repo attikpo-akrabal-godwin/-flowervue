@@ -6,7 +6,7 @@
     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="ltn__product-item text-center">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="img/product/6.png" alt="#"></a>
+                            <a href="product-details.html"><img src="/img/product/6.png" alt="#"></a>
                             <div class="product-badge">
                                 <ul>
                                     <li class="badge-2">15%</li>

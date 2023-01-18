@@ -10,21 +10,21 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="ltn__banner-item">
                         <div class="ltn__banner-img">
-                            <a href="#"><img src="img/banner/1.jpg" alt="Banner Image"></a>
+                            <a href="#"><img src="/img/banner/1.jpg" alt="Banner Image"></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="ltn__banner-item">
                         <div class="ltn__banner-img">
-                            <a href="#"><img src="img/banner/2.jpg" alt="Banner Image"></a>
+                            <a href="#"><img src="/img/banner/2.jpg" alt="Banner Image"></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="ltn__banner-item">
                         <div class="ltn__banner-img">
-                            <a href="#"><img src="img/banner/3.jpg" alt="Banner Image"></a>
+                            <a href="#"><img src="/img/banner/3.jpg" alt="Banner Image"></a>
                         </div>
                     </div>
                 </div>

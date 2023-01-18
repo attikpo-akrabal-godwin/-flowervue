@@ -10,7 +10,7 @@
                     <div class="col header-menu-column justify-content-center">
                         <div class="sticky-logo">
                             <div class="site-logo">
-                                <a href="#"><img src="img/logo.png" alt="Logo"></a>
+                                <a href="#"><img src="/img/logo.png" alt="Logo"></a>
                             </div>
                         </div>
                         <div class="header-menu header-menu-2">

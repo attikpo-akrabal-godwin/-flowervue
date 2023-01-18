@@ -6,7 +6,7 @@
         <div class="col-12 slick-slide slick-cloned" data-slick-index="1" id="" aria-hidden="false" style="width: 303px;" tabindex="-1">
             <div class="ltn__product-item text-center">
                 <div class="product-img">
-                    <a href="product-details.html" tabindex="-1"><img src="img/product/2.png" alt="#"></a>
+                    <a href="product-details.html" tabindex="-1"><img src="/img/product/2.png" alt="#"></a>
                     <div class="product-badge">
                         <ul>
                             <li class="badge-1">Hot</li>

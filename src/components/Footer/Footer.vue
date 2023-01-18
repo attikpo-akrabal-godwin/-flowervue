@@ -69,7 +69,7 @@
                             <h4 class="footer-title">About Our Shop</h4>
                             <div class="footer-logo d-none">
                                 <div class="site-logo">
-                                    <img src="img/logo.png" alt="Logo">
+                                    <img src="/img/logo.png" alt="Logo">
                                 </div>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo incididunt ut labore et dolore</p>
@@ -110,7 +110,7 @@
                                 </ul>
                             </div>
                             <div class="footer-payment-img">
-                                <img src="img/icons/payment-6.png" alt="Payment Image">
+                                <img src="/img/icons/payment-6.png" alt="Payment Image">
                             </div>
                         </div>
                     </div>

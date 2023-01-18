@@ -5,7 +5,7 @@
         <div class="col-lg-12 slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 404px;" tabindex="-1" role="option" aria-describedby="slick-slide20">
             <div class="ltn__blog-item">
                 <div class="ltn__blog-img">
-                    <a href="blog-details.html" tabindex="0"><img src="img/blog/1.jpg" alt="#"></a>
+                    <a href="blog-details.html" tabindex="0"><img src="/img/blog/1.jpg" alt="#"></a>
                 </div>
                 <div class="ltn__blog-brief">
                     <div class="ltn__blog-meta">

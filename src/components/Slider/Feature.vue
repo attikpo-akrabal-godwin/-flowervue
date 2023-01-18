@@ -11,7 +11,7 @@
                     <div class="ltn__feature-item-box-wrap ltn__feature-item-box-wrap-2 ltn__border section-bg-6 position-relative">
                         <div class="ltn__feature-item ltn__feature-item-8">
                             <div class="ltn__feature-icon">
-                                <img src="img/icons/svg/8-trolley.svg" alt="#">
+                                <img src="/img/icons/svg/8-trolley.svg" alt="#">
                             </div>
                             <div class="ltn__feature-info">
                                 <h4>Free shipping</h4>
@@ -20,7 +20,7 @@
                         </div>
                         <div class="ltn__feature-item ltn__feature-item-8">
                             <div class="ltn__feature-icon">
-                                <img src="img/icons/svg/9-money.svg" alt="#">
+                                <img src="/img/icons/svg/9-money.svg" alt="#">
                             </div>
                             <div class="ltn__feature-info">
                                 <h4>15 days returns</h4>
@@ -29,7 +29,7 @@
                         </div>
                         <div class="ltn__feature-item ltn__feature-item-8">
                             <div class="ltn__feature-icon">
-                                <img src="img/icons/svg/10-credit-card.svg" alt="#">
+                                <img src="/img/icons/svg/10-credit-card.svg" alt="#">
                             </div>
                             <div class="ltn__feature-info">
                                 <h4>Secure checkout</h4>
@@ -38,7 +38,7 @@
                         </div>
                         <div class="ltn__feature-item ltn__feature-item-8">
                             <div class="ltn__feature-icon">
-                                <img src="img/icons/svg/11-gift-card.svg" alt="#">
+                                <img src="/img/icons/svg/11-gift-card.svg" alt="#">
                             </div>
                             <div class="ltn__feature-info">
                                 <h4>Offer & gift here</h4>

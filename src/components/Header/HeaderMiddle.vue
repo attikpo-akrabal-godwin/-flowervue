@@ -9,7 +9,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="site-logo">
-                            <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+                            <a href="index.html"><img src="/img/logo.png" alt="Logo"></a>
                         </div>
                     </div>
                     <div class="col header-contact-serarch-column d-none d-xl-block">
