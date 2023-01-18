@@ -4,7 +4,7 @@
 
 <template>
     <div class="slick-track" style="opacity: 1; width: 2698px;" role="listbox">
-                    <div class="ltn__slide-item ltn__slide-item-8 text-color-white---- bg-image bg-overlay-theme-black-80--- slick-slide slick-current slick-active" data-bs-bg="/img/slider/1.jpg" data-slick-index="0" style="background-image: url(&quot;/img/slider/1.jpg&quot;); width: 1349px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide00">
+                    <div class="ltn__slide-item ltn__slide-item-8 text-color-white---- bg-image bg-overlay-theme-black-80--- slick-slide slick-current slick-active" data-bs-bg="/flowervuejs/img/slider/1.jpg" data-slick-index="0" style="background-image: url(&quot;/flowervuejs/img/slider/1.jpg&quot;); width: 1349px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide00">
                         <div class="ltn__slide-item-inner">
                             <div class="container">
                                 <div class="row">
