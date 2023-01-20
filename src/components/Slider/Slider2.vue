@@ -19,7 +19,7 @@
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
                                                 </div>
                                                 <div class="btn-wrapper animated">
-                                                    <a href="service.html" class="theme-btn-1 btn btn-round" tabindex="-1">Shop Now</a>
+                                                    <a href="#" class="theme-btn-1 btn btn-round" tabindex="-1">Shop Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -49,7 +49,7 @@
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
                                                 </div>
                                                 <div class="btn-wrapper animated">
-                                                    <a href="service.html" class="theme-btn-1 btn btn-round" tabindex="0">Shop Now</a>
+                                                    <a href="#" class="theme-btn-1 btn btn-round" tabindex="0">Shop Now</a>
                                                 </div>
                                             </div>
                                         </div>
