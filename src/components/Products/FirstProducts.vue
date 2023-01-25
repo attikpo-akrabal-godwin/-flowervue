@@ -1,5 +1,7 @@
 <script setup >
 import Product from './Product.vue'
+import { useProductStore } from '../../stores/products';
+const store = useProductStore()
 </script>
 
 <template>
@@ -14,14 +16,7 @@ import Product from './Product.vue'
                 </div>
             </div>
             <div class="row justify-content-center">
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
+                <Product v-for="newProduct in store.newArrivalProducts " :key="newProduct.id" :product="newProduct"/>
             </div>
         </div>
     </div>

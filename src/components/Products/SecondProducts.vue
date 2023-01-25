@@ -1,6 +1,9 @@
 <script setup>
+
 import Product from './Product.vue';
 import ProductLine from './ProductLine.vue';
+import { useProductStore } from '../../stores/products';
+const store = useProductStore()
 </script>
 
 <template>
@@ -17,15 +20,8 @@ import ProductLine from './ProductLine.vue';
                 <!-- ltn__product-item -->
                 <div aria-live="polite" class="slick-list draggable">
                     <div class="slick-track" style="opacity: 1; width: 3939px; transform: translate3d(-1212px, 0px, 0px);" role="listbox">
-                        <ProductLine/>
-                        <ProductLine/>
-                        <ProductLine/>
-                        <ProductLine/>
-                        <ProductLine/>
-                        <ProductLine/>
-                        <ProductLine/>
-                        <ProductLine/>
-                        <ProductLine/>
+                        <ProductLine v-for="topProduct in store.TopProducts" :key="topProduct.id" :product="topProduct" />
+    
                     </div>
             </div>
                 <!-- ltn__product-item -->

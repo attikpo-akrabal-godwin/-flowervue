@@ -9,6 +9,10 @@ import SecondProducts from "@/components/Products/SecondProducts.vue"
 import ThirdBanner from "@/components/Banner/ThirdBanner.vue"
 import Blog from "@/components/blog/index.vue"
 import BrandLogo from "@/components/BrandLogo/index.vue"
+import AddCardModal from "@/components/modals/AddCardModal.vue"
+import {useProductStore} from "../stores/products"
+const  store = useProductStore()
+
 </script>
 
 <template>
@@ -21,5 +25,6 @@ import BrandLogo from "@/components/BrandLogo/index.vue"
     <ThirdBanner/>
     <Blog/>
     <BrandLogo/>
-    <Footer/>
+    <Footer/> 
+    <AddCardModal v-if="store.canshowModal"/> 
 </template>

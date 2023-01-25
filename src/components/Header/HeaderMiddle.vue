@@ -1,5 +1,6 @@
-<script>
-
+<script setup>
+    import { useProductStore } from '../../stores/products';
+    const store = useProductStore()
 </script>
 
 <template>
@@ -99,7 +100,7 @@
                                         <a href="#ltn__utilize-cart-menu" class="ltn__utilize-toggle">
                                             <span class="mini-cart-icon">
                                                 <i class="icon-handbag"></i>
-                                                <sup>2</sup>
+                                                <sup>{{ store.selectedProductList.length }}</sup>
                                             </span>
                                             <h6><span>Your Cart</span> <span class="ltn__secondary-color">$89.25</span></h6>
                                         </a>
