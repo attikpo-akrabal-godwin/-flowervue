@@ -36,7 +36,7 @@ const  product = store.selectedProduct
                                             <div class="additional-info d-none--">
                                                 <p>We want to give you <b>10% discount</b> for your first order, <br>  Use (fiama10) discount code at checkout</p>
                                                 <div class="payment-method">
-                                                    <img src="img/icons/payment.png" alt="#">
+                                                    <img src="/img/icons/payment.png" alt="#">
                                                 </div>
                                             </div>
                                         </div>
