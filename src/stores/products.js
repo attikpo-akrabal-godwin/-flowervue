@@ -2,8 +2,8 @@ import { ref,reactive, computed } from 'vue'
 import { parse, stringify } from 'zipson'
 import { defineStore } from 'pinia'
 
-export const useProductStore = defineStore('productsStore', () => {
-    const selectedProductId = ref(undefined)
+/* export const useProductStore = defineStore('productStore', () => {
+    const selectedProductId = ref(false)
     const canshowModal = ref(false)
     const products = reactive([
         {id:1,name:"cool",price:17.00,reduction:{type:1,prcent:14},isnewProduct:true,isTopProduct:false,photo:1,isChecked:false},
@@ -79,5 +79,79 @@ export const useProductStore = defineStore('productsStore', () => {
         selectedProductList,
         deselectProduct,
         toggle
+    }
+}) */
+export const useProductStore = defineStore('productStore', {
+    state: () => {
+        return {
+            selectedProductId: false,
+            canshowModal: false,
+            products: [
+                {id:1,name:"cool",price:17.00,reduction:{type:1,prcent:14},isnewProduct:true,isTopProduct:false,photo:1,isChecked:false},
+                {id:2,name:"cool",price:17.00,reduction:{type:2,prcent:14},isnewProduct:true,isTopProduct:false,photo:2,isChecked:false},
+                {id:3,name:"cool",price:17.00,reduction:{type:2,prcent:14},isnewProduct:true,isTopProduct:false,photo:3,isChecked:false},
+                {id:4,name:"cool",price:17.00,reduction:{type:1,prcent:14},isnewProduct:true,isTopProduct:false,photo:4,isChecked:false},
+                {id:5,name:"cool",price:17.00,reduction:{type:1,prcent:14},isnewProduct:true,isTopProduct:false,photo:5,isChecked:false},
+                {id:6,name:"cool",price:17.00,reduction:{type:1,prcent:14},isnewProduct:true,isTopProduct:false,photo:6,isChecked:false},
+                {id:7,name:"cool",price:17.00,reduction:{type:2,prcent:14},isnewProduct:true,isTopProduct:false,photo:7,isChecked:false},
+                {id:8,name:"cool",price:17.00,reduction:{type:1,prcent:14},isnewProduct:true,isTopProduct:false,photo:8,isChecked:false},
+                
+                {id:8,name:"cool",price:17.00,reduction:{type:2,prcent:14},isnewProduct:false,isTopProduct:true,photo:5,isChecked:false},
+                {id:9,name:"cool",price:17.00,reduction:{type:1,prcent:14},isnewProduct:false,isTopProduct:true,photo:6,isChecked:false},
+                {id:10,name:"cool",price:17.00,reduction:{type:2,prcent:14},isnewProduct:false,isTopProduct:true,photo:7,isChecked:false},
+                {id:11,name:"cool",price:17.00,reduction:{type:1,prcent:14},isnewProduct:false,isTopProduct:true,photo:8,isChecked:false},
+                {id:10,name:"cool",price:17.00,reduction:{type:2,prcent:14},isnewProduct:false,isTopProduct:true,photo:7,isChecked:false},
+                {id:11,name:"cool",price:17.00,reduction:{type:1,prcent:14},isnewProduct:false,isTopProduct:true,photo:8,isChecked:false},
+                {id:10,name:"cool",price:17.00,reduction:{type:2,prcent:14},isnewProduct:false,isTopProduct:true,photo:7,isChecked:false},
+                {id:11,name:"cool",price:17.00,reduction:{type:1,prcent:14},isnewProduct:false,isTopProduct:true,photo:8,isChecked:false},
+        
+            ]
+        }
+    },
+    getters: {
+        newArrivalProducts: (state) => {
+            return state.products.filter((product)=>product.isnewProduct)
+        },
+        
+        TopProducts: (state) => {
+            return state.products.filter((product)=>product.isTopProduct)
+        },
+    
+        selectedProduct: (state)=>{
+            return state.products.filter((product)=>{
+                return product.id=== state.selectedProductId
+            })
+        },
+    
+        selectedProductList: (state) => {
+            return state.products.filter((product)=>{
+                return product.isChecked
+            })
+        }
+    },
+    actions: {
+        selectProduct(id){
+            this.products.map((product)=>{
+                if (product.id===id) {
+                    product.isChecked = true
+                }
+            })
+        },
+    
+        deselectProduct (id){
+            this.products.map((product)=>{
+                if (product.id===id) {
+                    product.isChecked = false
+                }
+            })
+        },
+    
+        toggle(id) {
+            if (id) {
+                this.selectedProductId = id 
+                this.selectProduct(id)
+            }
+            this.canshowModal = !this.canshowModal
+        }
     }
 })

@@ -12,6 +12,7 @@
     "pinia": "^2.0.29",
     "pinia-persistedstate": "^0.1.2",
     "pinia-plugin-persistedstate": "^3.0.2",
+    "secure-ls": "^1.2.6",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6",
     "zipson": "^0.2.12"
