@@ -80,16 +80,4 @@ export const useProductStore = defineStore('productsStore', () => {
         deselectProduct,
         toggle
     }
-},
-{
-  persist: true,
-  paths: ['selectedProductId','canshowModal','products'],
-  storage:{
-    
-      
-  },
-  serializer: {
-    deserialize: parse,
-    serialize: stringify
-  }
-},)
+})
